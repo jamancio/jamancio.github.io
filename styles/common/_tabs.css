@@ -1,0 +1,74 @@
+.tab-section {
+  border-bottom: 1px solid var(--text-color);
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    padding-block: calc(var(--spacer-5));
+
+    /* --- TAB BUTTONS (HEADER) --- */
+    .tabs__header {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid var(--accent-color);
+      max-width: var(--max-width-xl);
+      width: 100%;
+      margin-inline: auto;
+      margin-bottom: var(--spacer-5);
+
+      .tabs__button {
+        flex: 1;
+        background: none;
+        border: none;
+        color: var(--text-color);
+        font-family: var(--font-heading);
+        font-size: 36px;
+        font-weight: 700;
+        cursor: pointer;
+        padding-bottom: var(--spacer-1);
+        border-bottom: 4px solid transparent;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        opacity: 0.5; /* Dim inactive tabs */
+
+        &.active {
+          opacity: 1;
+          color: var(--accent-color);
+          border-bottom-color: var(--accent-color);
+        }
+
+        &:hover:not(.active) {
+          opacity: 0.8;
+          color: var(--accent-color);
+        }
+      }
+    }
+
+    /* --- TAB PANELS (BODY) --- */
+    .tabs__body {
+      .tabs__panel {
+        /* Basic fade-in animation when a panel becomes active */
+        animation: fadePanelIn 0.4s ease forwards;
+      }
+
+      .standard_study_row {
+        display: flex;
+        gap: var(--spacer-1);
+
+        .casestudies__content {
+          flex: 1;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadePanelIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

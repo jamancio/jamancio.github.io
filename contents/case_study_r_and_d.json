@@ -1,0 +1,90 @@
+[
+  {
+    "tab_name": "Case Studies",
+    "content": [
+      {
+        "title": "Department <strong class='primary'>Architecture</strong>",
+        "subtitle": "Architecting a Web Development Department from Zero",
+        "tags": ["Leadership", "CI / CD", "Systems Engineering"],
+        "description": "Engineered a complete departmental infrastructure from the ground up. By establishing <strong class='accent'>automated CI/CD pipelines</strong>, <strong class='primary'>standardizing project boilerplates</strong>, and <strong class='primary'>enforcing strict quality KPIs</strong>, I transformed an unstructured environment into a high-velocity production engine for a team of 6 developers in under a year.",
+        "ctas": [
+          {
+            "label": "Explore Case Study ↗",
+            "type": "btn-primary",
+            "url": "#coming-soon-case-studies"
+          },
+          {
+            "label": "Explore Websites Made Possible",
+            "type": "btn-accent",
+            "url": "contact"
+          }
+        ]
+      },
+      {
+        "title": "Proprietary <strong class='primary'>Middleware</strong>",
+        "subtitle": "Custom Enterprise Middleware API",
+        "tags": ["API Architecture", "Backend / PHP", "Data Routing"],
+        "description": "When the legacy base API lacked the rich features required for complex client builds, I architected a proprietary solution. This custom middleware bridges the data gap, <strong class='primary'>serving as the mandatory</strong>, <strong class='primary'>high-performance routing foundation</strong> that now powers 100% of our agency's client websites.",
+        "ctas": [
+          {
+            "label": "Explore Case Study ↗",
+            "type": "btn-primary",
+            "url": "#coming-soon-case-studies"
+          }
+        ]
+      },
+      {
+        "title": "Anime <strong class='primary'>Helper</strong>",
+        "subtitle": "Declarative Animation Micro-Framework",
+        "tags": ["Open Source", "JavaScript", "UI/UX Logic"],
+        "description": "Abstracted the powerful <strong class='accent'>anime.js</strong> library into a custom, declarative <strong class='primary'>micro-framework</strong>. This proprietary engine eliminates boilerplate by managing complex <strong class='primary'>lifecycles</strong>, global preset registration, and <strong class='primary'>accessibility compliance (reduced motion)</strong> under the hood, allowing developers to trigger <strong class='accent'>complex, staggered scroll-animations</strong> with a <strong class='primary'>single configuration object</strong>.",
+        "ctas": [
+          {
+            "label": "Explore Case Study ↗",
+            "type": "btn-primary",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tab_name": "R&D",
+    "content": [
+      {
+        "title": "The Deterministic Structure of <strong class='accent'>Local Prime Distribution</strong>",
+        "subtitle": "A Unified Computational and Geometric <strong>Framework</strong>",
+        "tags": [
+          "Algorithmic Number Theory",
+          "Applied Mathematics",
+          "Prime Number Theory"
+        ],
+        "description": "The distribution of prime numbers has traditionally been modeled using probabilistic methods, such as the Prime Number Theorem, which describes the asymptotic density of primes but does not predict their exact locations. This paper introduces a novel <strong class='accent'>computational and geometric framework</strong> for understanding local prime distribution as a <strong class='accent'>deterministic phenomenon</strong>, governed by modular constraints and fractal hierarchy.<br><br>Unlike traditional algebraic sieves that filter numbers based on divisibility rules (e.g., the Sieve of Eratosthenes), the <strong class='white'>\"Path of Least Resistance\" (PLR) framework</strong> operationalizes modular constraints to filter by structural geometry. We prove that the location of the next prime is not a probabilistic event but a <strong class='accent'>deterministic outcome</strong>: it is always the next geometrically-valid candidate with the minimum gap from the current prime.<br><br>Furthermore, we prove that this sieve is <strong class='accent'>Fractal</strong>. As the Primorial resolution increases, the structural resistance of the \"Clean Channel\", the set of valid candidates between primes, decreases systematically toward zero (0.00008). This convergence creates a geometric condition where primes flow through <strong class='accent'>positions of least resistance</strong>, suggesting a deterministic structure underlying the distribution of primes.",
+        "ctas": [
+          {
+            "label": "Read Full Paper On GitHub ↗",
+            "type": "btn-primary",
+            "url": "https://github.com/jamancio/the-deterministic-structure-of-local-prime-distribution/blob/main/README.md"
+          }
+        ]
+      },
+      {
+        "title": "THE RECURSIVE GEOMETRY OF <strong class='white'>PRIME PREDICTION</strong>",
+        "subtitle": "DERIVING A DETERMINISTIC TRAJECTORY VIA <strong>STRUCTURAL SELF-EXCLUSION</strong>",
+        "tags": [
+          "Prime Geometry",
+          "Recursive Sieving",
+          "Applied Mathematics"
+        ],
+        "description": "The distribution of prime numbers is historically modeled as a probabilistic phenomenon, famously described by the Prime Number Theorem and the Riemann Hypothesis. While sieve methods effectively identify primes by removing composites, they are traditionally viewed as subtractive search algorithms rather than predictive functions. This paper introduces the <strong class='white'>Recursive Geometric Sieve</strong>, a constructive framework that transforms prime discovery into a <strong class='white'>deterministic trajectory calculation</strong>. We identify the <strong class='white'>\"Structure of the Imposter\"</strong>, composite numbers that mimic local prime geometry, as the <strong class='white'>interference pattern of previous primorial waves</strong>. To resolve boundary failures in recursive sieving, we introduce the <strong class='white'>Self-Factor Exclusion Rule</strong>, a logical operator that permits prime waves to exist at their own harmonic frequencies. Benchmarking confirms that this model achieves <strong class='white'>100.00% predictive accuracy</strong> over <strong class='white'>100,000,000 iterations</strong> when the structural resolution scales with <strong class='white'>N</strong>. Furthermore, we propose that this recursive mechanism offers a geometric corollary to the Riemann Hypothesis, framing the distribution of primes as the <strong class='white'>interference product of deterministic modular waves</strong>.",
+        "ctas": [
+          {
+            "label": "Read Full Paper On GitHub ↗",
+            "type": "btn-primary-white btn-transparent",
+            "url": "https://github.com/jamancio/the-deterministic-structure-of-local-prime-distribution/blob/main/The%20Recursive%20Geometry%20of%20Prime%20Prediction%3A%20Deriving%20a%20Deterministic%20Trajectory%20via%20Structural%20Self-Exclusion.md"
+          }
+        ]
+      }
+    ]
+  }
+]

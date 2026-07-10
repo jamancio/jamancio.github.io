@@ -1,0 +1,22 @@
+{
+  "title": "OFFLINE / <strong class='accent'>LOGS</strong>",
+  "subtitle": "Offline field notes and mechanical pursuits.",
+  "blogs": [
+    {
+      "image_cover": "XSR700.png",
+      "title": "The Tactile Machine",
+      "tags": ["Yamaha", "Machine", "Riding"],
+      "teaser_text": "When I am not building web infrastructure, I am usually on a Yamaha XSR700. It serves as my introduction to mid-weight CC class machines, demanding a hands-on approach to physical mechanics. From fine-tuning the controls to long-weekend highway routing, it is the ultimate disconnect from the screen.",
+      "content": "",
+      "images": []
+    },
+    {
+      "image_cover": "Travel.jpeg",
+      "title": "Wonders of Travel",
+      "tags": ["Travel", "Culture", "Photography"],
+      "teaser_text": "I am drawn to the raw, unfiltered moments of travel. From the organized chaos of a local market to the quiet atmosphere of the landscapes of mountains, beaches, and hidden gems, I try to capture the authenticity of a place through my lens.",
+      "content": "",
+      "images": []
+    }
+  ]
+}

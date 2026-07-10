@@ -1,0 +1,14 @@
+.blogs__card__container {
+  .blogs__card__container__header {
+    .blogs__card__container__header__title {
+      font-size: 64px;
+      font-weight: 800;
+    }
+  }
+  .blogs__card__container__body {
+    line-height: 30px;
+    .blogs__card__container__body__cta {
+      margin-top: var(--spacer-2);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+#case-studies {
+  max-width: var(--max-width-xl);
+  width: 100%;
+  margin: auto;
+}
+
+.casestudies__content {
+  &[data-index="1"] {
+    margin-bottom: var(--spacer-4);
+  }
+
+  .casestudies__content__title {
+    font-family: var(--font-heading);
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: 86px;
+  }
+
+  .casestudies__content__subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-body);
+    margin-bottom: var(--spacer-1);
+  }
+
+  .casestudies__content__description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: var(--spacer-2);
+  }
+
+  .casestudies__content__ctas {
+    display: flex;
+    gap: var(--spacer-2);
+  }
+
+  .casestudies__content__body__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

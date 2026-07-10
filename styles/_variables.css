@@ -1,0 +1,37 @@
+:root {
+  --primary-color: ;
+  --font-body: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+  --font-accent: "JetBrains Mono", monospace;
+  --max-width-sm: 480px;
+  --max-width-md: 768px;
+  --max-width-lg: 1024px;
+  --max-width-xl: 1280px;
+
+  --spacer-1: 1rem;
+  --spacer-2: 2rem;
+  --spacer-3: 3rem;
+  --spacer-4: 4rem;
+  --spacer-5: 5rem;
+
+  /* 1. Define base hex colors */
+  --text-hex: #181818;
+  --primary-hex: #fffbf5;
+  --accent-hex: #c47e40;
+
+  --text-color: var(--text-hex);
+  --primary-color: var(--primary-hex);
+  --accent-color: var(--accent-hex);
+
+  @supports (color: oklch(from red l c h)) {
+    --text-color: oklch(
+      from var(--text-hex) l c h
+    );
+    --primary-color: oklch(
+      from var(--primary-hex) l c h
+    );
+    --accent-color: oklch(
+      from var(--accent-hex) l c h
+    );
+  }
+}

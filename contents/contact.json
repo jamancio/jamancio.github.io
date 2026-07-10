@@ -1,0 +1,72 @@
+[
+  {
+    "row": "upper-row",
+    "content": [
+      {
+        "title": {
+          "content": "END OF FILE",
+          "type": "h2"
+        }
+      },
+      {
+        "title": {
+          "content": "Open to <strong>technical leadership</strong>, <strong>architectural consulting</strong>, and <strong>open-source collaboration</strong>.",
+          "type": "p"
+        },
+        "content": {
+          "tags": [
+            "WordPress",
+            "Elementor",
+            "PHP",
+            "Shopify/Liquid",
+            "Angular",
+            "JavaScript",
+            "CSS/SCSS/SASS",
+            "HTML5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "row": "lower-row",
+    "content": [
+      {
+        "title": {
+          "content": "<strong class='white'>JORES</strong> AMANCIO",
+          "type": "h2"
+        },
+        "subtitle": {
+          "content": "Lead Architect/Team Lead",
+          "type": "p"
+        }
+      },
+      {
+        "content": {
+          "urls": [
+            {
+              "text": "amanciojores@gmail.com",
+              "url": "mailto:amanciojores@gmail.com"
+            },
+            {
+              "text": "linkedin.com/in/amancio-jores",
+              "url": "https://www.linkedin.com/in/amancio-jores/"
+            },
+            {
+              "text": "github.com/jamancio",
+              "url": "https://github.com/jamancio"
+            },
+            {
+              "text": "(+63) 915 843 5535",
+              "url": "tel:+(63)9158435535"
+            },
+            {
+              "text": "Download my CV ↗",
+              "url": "https://drive.google.com/file/d/1H7LCwAnxAmfxQDy3iL7eH6p5R-M2kw4R/view?usp=sharing"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

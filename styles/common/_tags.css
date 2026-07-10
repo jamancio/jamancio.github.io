@@ -1,0 +1,12 @@
+.content_tags {
+  display: flex;
+  gap: var(--spacer-1);
+  flex-wrap: wrap;
+  margin-block: var(--spacer-2);
+  .tag {
+    font-family: var(--font-accent);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}

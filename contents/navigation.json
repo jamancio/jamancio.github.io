@@ -1,0 +1,28 @@
+[
+  {
+    "name": "JAM",
+    "url": "#home",
+    "type": "logo"
+  },
+  {
+    "name": "links",
+    "type": "menu",
+    "url": [
+      {
+        "name": "Case Studies and R&D",
+        "url": "#cs-rnd",
+        "type": "link"
+      },
+      {
+        "name": "About Me",
+        "url": "#about-me",
+        "type": "link"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact-me",
+        "type": "cta"
+      }
+    ]
+  }
+]

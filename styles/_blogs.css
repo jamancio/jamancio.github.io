@@ -1,0 +1,26 @@
+.blogs__container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacer-1);
+
+  .content_tags {
+    margin-block: var(--spacer-1);
+  }
+
+  .blogs__title__container,
+  .blogs__container__blog__list {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .blogs__title__container {
+    .blogs__title {
+      font-size: 86px;
+      line-height: 100px;
+    }
+
+    .blogs__subtitle {
+      margin-top: var(--spacer-1);
+    }
+  }
+}

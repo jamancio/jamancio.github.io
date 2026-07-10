@@ -1,0 +1,44 @@
+.hero__content {
+  height: 91.6svh; /* 100% of viewport on mobile (using svh for mobile browser UI consistency) */
+
+  @media (min-width: 1280) {
+    height: 70vh; /* 70% of viewport on desktop */
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  strong {
+    color: var(--accent-color);
+  }
+  .hero__content__title {
+    font-size: clamp(8rem, 6vw, 128px);
+    text-transform: uppercase;
+    margin-left: -10px;
+  }
+  .hero__content__buttons {
+    margin-top: var(--spacer-3);
+    display: flex;
+    gap: var(--spacer-2);
+  }
+  .hero__content__eyebrow {
+    margin-bottom: -10px;
+  }
+
+  .hero__content__title {
+    /* Keep caret inline with the text */
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+@keyframes hero-caret-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

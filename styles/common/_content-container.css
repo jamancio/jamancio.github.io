@@ -1,0 +1,4 @@
+.content-container {
+  background-color: var(--accent-color);
+  padding-block: calc(var(--spacer-5) * 1.3);
+}

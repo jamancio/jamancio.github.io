@@ -1,0 +1,49 @@
+.coming-soon-container {
+  height: 100vh;
+  .coming-soon {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+    .coming-soon_title {
+      color: var(--text-color);
+      width: 50%;
+      font-size: clamp(3rem, 10vw, 6rem);
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .coming-soon_description {
+      font-size: clamp(1rem, 2vw, 3rem);
+      margin-top: 1rem;
+    }
+
+    .coming-soon_progress_bar_container {
+      margin-top: var(--spacer-3);
+      width: 60%;
+
+      .coming-soon_progress_bar {
+        width: 0%;
+        height: 3px;
+        background-color: var(--accent-color);
+        border-radius: 99px;
+      }
+
+      .coming-soon_progress_label {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 0.8rem;
+        font-family: var(--font-accent);
+        opacity: 0.5;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

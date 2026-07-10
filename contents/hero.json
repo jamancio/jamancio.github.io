@@ -1,0 +1,17 @@
+{
+  "eyebrow": "I am a/an...",
+  "titles": ["Developer", "Leader", "Enthusiast", "Designer"],
+  "description": "based in the <strong>Philippines</strong>. With my expertise, I can bring your ideas to <strong>life</strong>.",
+  "buttons": [
+    {
+      "text": "Explore Projects ↗",
+      "url": "#coming-soon-projects",
+      "type": "btn-primary"
+    },
+    {
+      "text": "Get In Touch",
+      "url": "contact",
+      "type": "btn-accent"
+    }
+  ]
+}

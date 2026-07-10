@@ -1,0 +1,18 @@
+{
+  "title": "Lead Developer & <strong class='white'>Full-Stack Engineer</strong>",
+  "description": "I am a <strong class='black'>Lead Full-Stack Developer</strong> specializing in architecting high-performance web applications and scalable content management systems. Currently, I serve as a Team Lead for a dedicated web development structure, <strong class='black'>where I direct a team of 6 developers</strong>, establish development lifecycles, and design custom internal tools and APIs to power our client websites.",
+  "skills": [
+    {
+      "title": "Engineering Leadership",
+      "description": "Architectural oversight and team management. I direct cross-functional development teams, <strong class='black'>establish robust web development processes</strong>, and <strong class='black'>design custom APIs</strong> to align high-performance engineering with business objectives."
+    },
+    {
+      "title": "Full-Stack Execution",
+      "description": "Bridging <strong class='black'>design and scalable deployment</strong>. With deep expertise across modern JavaScript frameworks, <strong class='black'>custom WordPress ecosystems</strong>, and enterprise CMS platforms, I build dynamic frontends and robust backends from the ground up."
+    },
+    {
+      "title": "Automation & Optimization",
+      "description": "Eliminating friction through systems engineering. I leverage <strong class='black'>workflow automation</strong>, build efficient <strong class='black'>CI/CD pipelines</strong>, and <strong class='black'>implement data tracking</strong> to streamline operational workflows and maximize platform performance."
+    }
+  ]
+}

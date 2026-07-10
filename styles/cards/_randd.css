@@ -1,0 +1,58 @@
+.raand__container {
+  .randd {
+    padding-block: var(--spacer-5);
+    &:first-child {
+      padding-top: 0;
+    }
+
+    .randd__content {
+      max-width: var(--max-width-xl);
+      width: 100%;
+      margin: auto;
+    }
+
+    .randd__header {
+      padding-bottom: var(--spacer-3);
+      border-bottom: 1px solid var(--text-color);
+
+      .title {
+        font-size: 86px;
+        font-weight: 800;
+        line-height: 100px;
+        width: 80%;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+        margin-block: var(--spacer-2);
+        text-transform: uppercase;
+      }
+
+      .header_tag {
+        padding: 10px 20px;
+        background-color: var(--text-color);
+        color: var(--primary-color);
+        font-family: var(--font-accent);
+        width: fit-content;
+        margin-bottom: var(--spacer-2);
+      }
+    }
+
+    .randd__body {
+      padding-block: var(--spacer-3);
+      .rand__abstract_label {
+        font-size: 4rem;
+        margin-bottom: var(--spacer-2);
+      }
+      .description {
+        line-height: 30px;
+      }
+    }
+
+    &[data-index="2"] {
+      background-color: var(--accent-color);
+      margin-bottom: var(--spacer-1);
+    }
+  }
+}
